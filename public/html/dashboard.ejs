@@ -9,8 +9,8 @@
 </head>
 <body class="flex flex-col items-center justify-center h-screen bg-[#e0f7fa]">
     <div class="fixed inset-0 flex items-center justify-center">
-        <div class="relative bg-[#2b4d6d] border-4 border-[#87b8cc] shadow-lg p-6 w-80 rounded-lg">
-            <p class="text-white text-center font-bold text-2xl">Login</p>
+        <div class="relative bg-[#465850] border-4 border-[#1c1e1d] shadow-lg p-6 w-80 rounded-lg">
+            <p class="text-white text-center font-bold text-2xl">Login GTPS</p>
             <div id="errorDiv" class="hidden flex flex-col mt-2 text-xs text-red-700 font-bold px-[5px] bg-[#2b4d6d] rounded">
                 <a id="errorMessage"></a>
             </div>
@@ -23,23 +23,23 @@
                     <input name="type" value="log" type="hidden" />
                     <input name="_token" value="<%= JSON.stringify(data) %>" type="hidden" />
                     <label for="loginGrowId" class="block text-white text-xs">GrowID</label>
-                    <div class="flex items-center border-2 border-[#81d4fa] rounded bg-[#2b4d6d] px-1 py-1">
-                        <i class="fas fa-user text-white mr-1 text-xs"></i>
-                        <input type="text" name="growId" id="loginGrowId" class="w-full bg-[#2b4d6d] text-white text-xs placeholder-white focus:outline-none" placeholder="Enter your growid">
+                    <div class="flex items-center border-2 border-[#2c2c2c] rounded bg-[#aeaeae] px-1 py-1">
+                        <i class="fas fa-user black-black mr-1 text-xs"></i>
+                        <input type="text" name="growId" id="loginGrowId" class="w-full bg-[#aeaeae] text-black text-xs placeholder-black focus:outline-none" placeholder="Enter your growid">
                     </div>
                 </div>
                 <div class="mb-1">
                     <label for="loginPassword" class="block text-white text-xs">Password</label>
-                    <div class="flex items-center border-2 border-[#81d4fa] rounded bg-[#2b4d6d] px-1 py-1">
-                        <i class="fas fa-lock text-white mr-1 text-xs"></i>
-                        <input type="password" name="password" id="loginPassword" class="w-full bg-[#2b4d6d] text-white text-xs placeholder-white focus:outline-none" placeholder="Enter your password">
-                        <button type="button" id="toggleLogPassword" class="text-white ml-2 focus:outline-none text-xs">
+                    <div class="flex items-center border-2 border-[#2c2c2c] rounded bg-[#aeaeae] px-1 py-1">
+                        <i class="fas fa-lock text-black mr-1 text-xs"></i>
+                        <input type="password" name="password" id="loginPassword" class="w-full bg-[#aeaeae] text-black text-xs placeholder-black focus:outline-none" placeholder="Enter your password">
+                        <button type="button" id="toggleLogPassword" class="text-black ml-2 focus:outline-none text-xs">
                             <i class="fas fa-eye"></i>
                         </button>
                     </div>
                 </div>
                 <div class="flex justify-end items-center">
-                    <button id="loginButton" class="px-2 py-1 rounded bg-[#00b8ff] text-white text-xs hover:bg-[#06a4dd] transition duration-300 ease-in-out transform hover:scale-105">Login</button>
+                    <button id="loginButton" class="px-2 py-1 rounded bg-[#649788] text-black text-xs hover:bg-[#cbcbcb] transition duration-300 ease-in-out transform hover:scale-105">Login</button>
                 </div>
             </form>
         </div>
